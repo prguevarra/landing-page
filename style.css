@@ -1,0 +1,39 @@
+* {
+    color: white;
+}
+
+.header {
+    display: flex;
+    background-color: hsl(215deg 28% 17%);;
+}
+
+.section-one {
+    display: flex;
+    background-color: hsl(215deg 28% 17%);;
+}
+
+.section-two {
+    display: flex;
+    color: black;
+}
+
+.section-three {
+    display: flex;
+}
+
+.section-four {
+    display: flex;
+   
+}
+
+.call {
+    background-color: hsl(217deg 91% 60%);;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: hsl(215deg 28% 17%);
+}
