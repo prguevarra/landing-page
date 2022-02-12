@@ -40,13 +40,13 @@ body {
 .signup-one {
     color: white;
     background-color: hsl(217deg 91% 60%);
-    width: 90px;
-    margin-top: 20px;
-    padding: 4px 10px;
 }
 
 button {
     border-radius: 8px;
+    width: 90px;
+    margin-top: 20px;
+    padding: 4px 10px;
 }
 
 h1, p {
@@ -64,11 +64,14 @@ h1 {
     align-items: center;
     color: black;
     padding: 25px;
+    text-align: center;
 }
 
 .section-two img {
     border: 2px solid violet;
-    
+    width: 120px;
+    height: 200px;
+    align-self: center;
     
 }
 
@@ -83,7 +86,6 @@ h1 {
 .subtext {
     display: flex;
     flex-direction: column;
-    background-color: yellow;
     justify-content: center;
     align-self: center;
     width: 150px;
@@ -108,12 +110,17 @@ h1 {
     display: flex;
     justify-content: center;
     padding: 30px;  
+    
 }
 
 .call {
+    display: flex;
     background-color: hsl(217deg 91% 60%);
     padding: 10px;  
     border-radius: 5px;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer {
